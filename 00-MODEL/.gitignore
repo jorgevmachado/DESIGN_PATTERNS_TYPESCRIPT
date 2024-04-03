@@ -1,0 +1,73 @@
+
+!.github/*
+.idea/
+.idea
+.DS_Store
+dist
+package-lock.json
+
+.sentryclirc
+
+videos/
+screenshots/
+coverage/
+
+# SSR
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+
+# next.js
+.next/
+out/
+.lighthouseci/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Yarn files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
